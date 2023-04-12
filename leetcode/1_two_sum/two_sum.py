@@ -1,5 +1,11 @@
 class Solution(object):
     def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+
         previous_map = {}
 
         for i, n in enumerate(nums):
