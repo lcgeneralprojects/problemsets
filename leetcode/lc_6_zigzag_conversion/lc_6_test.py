@@ -1,5 +1,5 @@
 import unittest
-from zigzag_conversion import Solution
+from lc_f_6_zigzag_conversion import Solution
 
 
 class MyTests(unittest.TestCase):

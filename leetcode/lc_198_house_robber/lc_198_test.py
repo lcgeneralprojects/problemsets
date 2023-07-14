@@ -1,5 +1,5 @@
 import unittest
-from house_robber import Solution
+from lc_f_198_house_robber import Solution
 from common.binary_tree import *
 
 

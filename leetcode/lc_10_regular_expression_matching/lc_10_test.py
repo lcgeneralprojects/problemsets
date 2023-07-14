@@ -1,5 +1,5 @@
 import unittest
-from regular_expression_matching import Solution
+from lc_f_10_regular_expression_matching import Solution
 
 
 class MyTests(unittest.TestCase):

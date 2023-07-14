@@ -1,5 +1,5 @@
 import unittest
-from coin_change import Solution
+from lc_f_322_coin_change import Solution
 from common.binary_tree import *
 
 
