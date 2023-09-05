@@ -17,8 +17,10 @@ class Solution:
                     elif nums[left] + nums[right] > new_target:
                         right -= 1
                     else:
-                        res.append([nums[i], nums[j], nums[left], nums[right]])
+                        tmp = [nums[i], nums[j], nums[left], nums[right]]
+                        if tmp not in res:
+                            res.append(tmp)
                         left += 1
-                        right += 1
+                        right -= 1
 
         return res

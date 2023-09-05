@@ -4,8 +4,8 @@ class ListNode:
         self.next = next
 
 
-def stringToSLL(input):
-    if input == []:
+def listToSLL(input):
+    if input == '' or input == []:
         return None
 
     head = ListNode(input[0])
@@ -18,7 +18,7 @@ def stringToSLL(input):
 
     return head
 
-def SLLToString(input):
+def SLLToList(input):
     res = []
     cur = input
 
@@ -27,3 +27,4 @@ def SLLToString(input):
         cur = cur.next
 
     return res
+
