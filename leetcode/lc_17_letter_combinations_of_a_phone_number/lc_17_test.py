@@ -1,5 +1,5 @@
 import unittest
-from letter_combinations_of_a_phone_number import Solution
+from lc_f_17_letter_combinations_of_a_phone_number import Solution
 
 
 class MyTests(unittest.TestCase):

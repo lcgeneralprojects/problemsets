@@ -1,5 +1,5 @@
 import unittest
-from where_will_the_ball_fall import Solution
+from lc_f_1706_where_will_the_ball_fall import Solution
 
 
 class MyTests(unittest.TestCase):

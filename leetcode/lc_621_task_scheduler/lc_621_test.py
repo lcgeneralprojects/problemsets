@@ -1,5 +1,5 @@
 import unittest
-from task_scheduler import Solution
+from lc_f_621_task_scheduler import Solution
 
 
 class MyTests(unittest.TestCase):

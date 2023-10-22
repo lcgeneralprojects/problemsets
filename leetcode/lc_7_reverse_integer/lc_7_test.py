@@ -1,5 +1,5 @@
 import unittest
-from reverse_integer import Solution
+from lc_f_7_reverse_integer import Solution
 
 
 class MyTests(unittest.TestCase):

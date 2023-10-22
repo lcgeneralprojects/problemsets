@@ -1,5 +1,5 @@
 import unittest
-from rotting_oranges import Solution
+from lc_f_994_rotting_oranges import Solution
 from common.binary_tree import *
 
 

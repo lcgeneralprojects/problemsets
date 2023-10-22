@@ -1,5 +1,5 @@
 import unittest
-from bus_routes import Solution
+from lc_f_815_bus_routes import Solution
 from common.binary_tree import *
 
 
