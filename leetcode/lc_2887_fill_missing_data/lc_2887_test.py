@@ -16,7 +16,7 @@ class MyTests(unittest.TestCase):
 
     def test_something(self):
         for case, expected in self.cases:
-            self.assertEqual(expected, Solution().METHOD(*case))
+            self.assertEqual(expected, Solution().METHOD(case[0], case[1]))
 
 
 if __name__ == '__main__':

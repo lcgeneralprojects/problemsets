@@ -9,6 +9,8 @@ class MyTests(unittest.TestCase):
                   15))
     cases.append(([[5, 5, 4, 5, 4, 1, 1, 1], 0],
                   20))
+    cases.append(([[6569, 9667, 3148, 7698, 1622, 2194, 793, 9041, 1670, 1872], 5],
+                  9732))
 
     def test_something(self):
         for case, expected in self.cases:
