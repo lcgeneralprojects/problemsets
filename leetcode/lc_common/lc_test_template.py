@@ -5,13 +5,13 @@ from MAIN_FILE import Solution
 class MyTests(unittest.TestCase):
     # Cases are submitted in the format (input, expected_output)
     cases = list()
-    cases.append(('INPUT',
+    cases.append((['INPUT'],
                   'EXPECTED OUTPUT'))
-    cases.append(('INPUT',
+    cases.append((['INPUT'],
                   'EXPECTED OUTPUT'))
-    cases.append(('INPUT',
+    cases.append((['INPUT'],
                   'EXPECTED OUTPUT'))
-    cases.append(('INPUT',
+    cases.append((['INPUT'],
                   'EXPECTED OUTPUT'))
 
     def test_something(self):
